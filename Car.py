@@ -9,7 +9,7 @@ class Car:
         if self.price >10000:
             self.tax = 0.15
         else:
-            pass#nothing
+            pass #nothing
         if self.fuel< 0.25:
             self.fuel = 'empty'
         elif self.fuel >=0.25 and fuel<0.5:
