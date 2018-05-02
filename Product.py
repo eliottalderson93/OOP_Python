@@ -24,7 +24,7 @@ class Product:
             elif self.status == True:
                 self.status = 'for sale'
         else:
-            print('invalid status')
+            print(self.status)
             pass
         return self
     #################################################

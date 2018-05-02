@@ -16,10 +16,8 @@ class Bike:
         self.miles -= 5
         print("Too far!")
         return self
-modelOne=Bike(0,0,0)
-modelOne.ride().ride().ride().reverse().displayinfo()
-modelTwo = Bike(10,0,0)
-modelTwo.ride().ride().reverse().reverse().displayinfo()
-modelThree = Bike(20,0,0)
-modelThree.reverse().reverse().reverse().displayinfo()
+    def printAll(self):
+        print(self.__dict__)
+        print('\n')
+
 
